@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import <DigitsKit/DigitsKit.h>
 
 @interface ViewController ()
 
@@ -18,14 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
-    // ZG - Playing with Digits to sign in with a phone number
-    DGTAuthenticateButton *authenticateButton = [DGTAuthenticateButton buttonWithAuthenticationCompletion:^(DGTSession *session, NSError *error) {
-        // play with Digits session
-    }];
-    authenticateButton.center = self.view.center;
-    [self.view addSubview:authenticateButton];
-
 }
 
 - (void)didReceiveMemoryWarning {

@@ -7,9 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import <Fabric/Fabric.h>
-#import <DigitsKit/DigitsKit.h>
-#import <Crashlytics/Crashlytics.h>
 
 @interface AppDelegate ()
 
@@ -19,9 +16,6 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
-    // Set up Fabric for Crashlytics
-    [Fabric with:@[CrashlyticsKit, DigitsKit]];
     
     // Set the app's status bar to the default light color instead of default black
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
