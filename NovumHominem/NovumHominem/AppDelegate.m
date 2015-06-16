@@ -8,6 +8,10 @@
 
 #import "AppDelegate.h"
 
+// Parse headers
+#import <Parse/Parse.h>
+#import <ParseCrashReporting/ParseCrashReporting.h>
+
 @interface AppDelegate ()
 
 @end
@@ -16,6 +20,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    // Set up Parse
+    [ParseCrashReporting enable];
+    [Parse setApplicationId:@"dUjMT1RSxP3He2H6UY18BFM6c0Lsur7Q5XWBy2cN"
+                  clientKey:@"T2TPuucRrTXlj5EDYERXwOzMaLr7u0md4KYqM97f"];
     
     // Set the app's status bar to the default light color instead of default black
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
