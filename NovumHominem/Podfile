@@ -1,5 +1,5 @@
 target 'NovumHominem' do
-	pod 'ComponentKit'
+#	pod 'ComponentKit'
     pod 'AFNetworking'
 end
 
