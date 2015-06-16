@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		74A58B5B51FBE135A35A3731 /* libPods-NovumHominem.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9824282AE913265E0F7EB5E4 /* libPods-NovumHominem.a */; };
-		9259C3311B2E950700327183 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9259C32F1B2E950700327183 /* Fabric.framework */; };
-		9259C3321B2E950700327183 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9259C3301B2E950700327183 /* Crashlytics.framework */; };
-		9259C3361B2E955A00327183 /* DigitsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9259C3331B2E955A00327183 /* DigitsKit.framework */; };
-		9259C3371B2E955A00327183 /* DigitsKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9259C3341B2E955A00327183 /* DigitsKitResources.bundle */; };
-		9259C3381B2E955A00327183 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9259C3351B2E955A00327183 /* TwitterCore.framework */; };
+		9256E2ED1B2FD221001147A5 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9256E2EB1B2FD221001147A5 /* Fabric.framework */; };
+		9256E2EE1B2FD221001147A5 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9256E2EC1B2FD221001147A5 /* Crashlytics.framework */; };
+		9256E2F21B2FD2FE001147A5 /* DigitsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9256E2EF1B2FD2FE001147A5 /* DigitsKit.framework */; };
+		9256E2F31B2FD2FE001147A5 /* DigitsKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9256E2F01B2FD2FE001147A5 /* DigitsKitResources.bundle */; };
+		9256E2F41B2FD2FE001147A5 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9256E2F11B2FD2FE001147A5 /* TwitterCore.framework */; };
 		9287BD361B2E888F00241EF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9287BD351B2E888F00241EF0 /* main.m */; };
 		9287BD391B2E888F00241EF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9287BD381B2E888F00241EF0 /* AppDelegate.m */; };
 		9287BD3C1B2E888F00241EF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9287BD3B1B2E888F00241EF0 /* ViewController.m */; };
@@ -34,11 +34,11 @@
 
 /* Begin PBXFileReference section */
 		3AE6EC65C4CD05212DA17D93 /* Pods-NovumHominem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NovumHominem.release.xcconfig"; path = "Pods/Target Support Files/Pods-NovumHominem/Pods-NovumHominem.release.xcconfig"; sourceTree = "<group>"; };
-		9259C32F1B2E950700327183 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
-		9259C3301B2E950700327183 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
-		9259C3331B2E955A00327183 /* DigitsKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DigitsKit.framework; sourceTree = "<group>"; };
-		9259C3341B2E955A00327183 /* DigitsKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = DigitsKitResources.bundle; path = DigitsKit.framework/Versions/A/Resources/DigitsKitResources.bundle; sourceTree = "<group>"; };
-		9259C3351B2E955A00327183 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
+		9256E2EB1B2FD221001147A5 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		9256E2EC1B2FD221001147A5 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		9256E2EF1B2FD2FE001147A5 /* DigitsKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DigitsKit.framework; sourceTree = "<group>"; };
+		9256E2F01B2FD2FE001147A5 /* DigitsKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = DigitsKitResources.bundle; path = DigitsKit.framework/Versions/A/Resources/DigitsKitResources.bundle; sourceTree = "<group>"; };
+		9256E2F11B2FD2FE001147A5 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
 		9287BD301B2E888F00241EF0 /* NovumHominem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NovumHominem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9287BD341B2E888F00241EF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9287BD351B2E888F00241EF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -61,11 +61,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9259C3381B2E955A00327183 /* TwitterCore.framework in Frameworks */,
+				9256E2F41B2FD2FE001147A5 /* TwitterCore.framework in Frameworks */,
 				74A58B5B51FBE135A35A3731 /* libPods-NovumHominem.a in Frameworks */,
-				9259C3321B2E950700327183 /* Crashlytics.framework in Frameworks */,
-				9259C3311B2E950700327183 /* Fabric.framework in Frameworks */,
-				9259C3361B2E955A00327183 /* DigitsKit.framework in Frameworks */,
+				9256E2EE1B2FD221001147A5 /* Crashlytics.framework in Frameworks */,
+				9256E2ED1B2FD221001147A5 /* Fabric.framework in Frameworks */,
+				9256E2F21B2FD2FE001147A5 /* DigitsKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,11 +83,11 @@
 			isa = PBXGroup;
 			children = (
 				9824282AE913265E0F7EB5E4 /* libPods-NovumHominem.a */,
-				9259C3331B2E955A00327183 /* DigitsKit.framework */,
-				9259C3341B2E955A00327183 /* DigitsKitResources.bundle */,
-				9259C3351B2E955A00327183 /* TwitterCore.framework */,
-				9259C32F1B2E950700327183 /* Fabric.framework */,
-				9259C3301B2E950700327183 /* Crashlytics.framework */,
+				9256E2EF1B2FD2FE001147A5 /* DigitsKit.framework */,
+				9256E2F01B2FD2FE001147A5 /* DigitsKitResources.bundle */,
+				9256E2F11B2FD2FE001147A5 /* TwitterCore.framework */,
+				9256E2EB1B2FD221001147A5 /* Fabric.framework */,
+				9256E2EC1B2FD221001147A5 /* Crashlytics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -174,7 +174,7 @@
 				9287BD2D1B2E888F00241EF0 /* Frameworks */,
 				9287BD2E1B2E888F00241EF0 /* Resources */,
 				B6DC6A18A76AF847067B1D32 /* Copy Pods Resources */,
-				9259C32E1B2E94F400327183 /* ShellScript */,
+				9256E2EA1B2FD205001147A5 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -246,7 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9259C3371B2E955A00327183 /* DigitsKitResources.bundle in Resources */,
+				9256E2F31B2FD2FE001147A5 /* DigitsKitResources.bundle in Resources */,
 				9287BD5C1B2E88A800241EF0 /* Images.xcassets in Resources */,
 				9287BD441B2E888F00241EF0 /* LaunchScreen.xib in Resources */,
 				9287BD5B1B2E88A800241EF0 /* Main.storyboard in Resources */,
@@ -263,7 +263,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9259C32E1B2E94F400327183 /* ShellScript */ = {
+		9256E2EA1B2FD205001147A5 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
