@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-NovumHominem-Ono.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-NovumHominem.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>6DF9668A59791FFF88F0C2D1</key>
+		<key>1ECD75B404DD5FC3D2919D39</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8EC2C0776A0734F3CE88F60A</key>
+		<key>4C631FD043CD112CC38745B8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E5160D3E618486E3E7772401</key>
+		<key>8ACA5980C24F4C1C7F125DC1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E678502E76A216B9B60DBD9F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

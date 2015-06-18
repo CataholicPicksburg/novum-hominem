@@ -8,9 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		74A58B5B51FBE135A35A3731 /* libPods-NovumHominem.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9824282AE913265E0F7EB5E4 /* libPods-NovumHominem.a */; };
+		920756621B31362D007A1ECF /* TPOConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 920756611B31362D007A1ECF /* TPOConstants.m */; };
+		920756651B3255D3007A1ECF /* TPODataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 920756641B3255D3007A1ECF /* TPODataManager.m */; };
+		920756681B325CB0007A1ECF /* TPODailyReadings.m in Sources */ = {isa = PBXBuildFile; fileRef = 920756671B325CB0007A1ECF /* TPODailyReadings.m */; };
+		9207566B1B3267FA007A1ECF /* ResourcesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9207566A1B3267FA007A1ECF /* ResourcesVC.m */; };
+		920756741B32702D007A1ECF /* TPODailyReadingsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 920756731B32702D007A1ECF /* TPODailyReadingsVC.m */; };
+		9207567D1B327E4D007A1ECF /* TPODailyReadingsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9207567C1B327E4D007A1ECF /* TPODailyReadingsVC.xib */; };
+		920756BB1B328CAC007A1ECF /* UIColor+CustomColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 920756BA1B328CAC007A1ECF /* UIColor+CustomColors.m */; };
 		9287BD361B2E888F00241EF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9287BD351B2E888F00241EF0 /* main.m */; };
 		9287BD391B2E888F00241EF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9287BD381B2E888F00241EF0 /* AppDelegate.m */; };
-		9287BD3C1B2E888F00241EF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9287BD3B1B2E888F00241EF0 /* ViewController.m */; };
 		9287BD441B2E888F00241EF0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9287BD421B2E888F00241EF0 /* LaunchScreen.xib */; };
 		9287BD501B2E888F00241EF0 /* NovumHominemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9287BD4F1B2E888F00241EF0 /* NovumHominemTests.m */; };
 		9287BD5B1B2E88A800241EF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9287BD591B2E88A800241EF0 /* Main.storyboard */; };
@@ -46,13 +52,24 @@
 
 /* Begin PBXFileReference section */
 		3AE6EC65C4CD05212DA17D93 /* Pods-NovumHominem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NovumHominem.release.xcconfig"; path = "Pods/Target Support Files/Pods-NovumHominem/Pods-NovumHominem.release.xcconfig"; sourceTree = "<group>"; };
+		920756601B31362D007A1ECF /* TPOConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPOConstants.h; sourceTree = "<group>"; };
+		920756611B31362D007A1ECF /* TPOConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPOConstants.m; sourceTree = "<group>"; };
+		920756631B3255D3007A1ECF /* TPODataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPODataManager.h; path = Models/TPODataManager.h; sourceTree = "<group>"; };
+		920756641B3255D3007A1ECF /* TPODataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPODataManager.m; path = Models/TPODataManager.m; sourceTree = "<group>"; };
+		920756661B325CB0007A1ECF /* TPODailyReadings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPODailyReadings.h; path = Models/TPODailyReadings.h; sourceTree = "<group>"; };
+		920756671B325CB0007A1ECF /* TPODailyReadings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPODailyReadings.m; path = Models/TPODailyReadings.m; sourceTree = "<group>"; };
+		920756691B3267FA007A1ECF /* ResourcesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResourcesVC.h; path = Controllers/ResourcesVC.h; sourceTree = "<group>"; };
+		9207566A1B3267FA007A1ECF /* ResourcesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResourcesVC.m; path = Controllers/ResourcesVC.m; sourceTree = "<group>"; };
+		920756721B32702D007A1ECF /* TPODailyReadingsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPODailyReadingsVC.h; path = Controllers/TPODailyReadingsVC.h; sourceTree = "<group>"; };
+		920756731B32702D007A1ECF /* TPODailyReadingsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPODailyReadingsVC.m; path = Controllers/TPODailyReadingsVC.m; sourceTree = "<group>"; };
+		9207567C1B327E4D007A1ECF /* TPODailyReadingsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TPODailyReadingsVC.xib; path = Views/TPODailyReadingsVC.xib; sourceTree = "<group>"; };
+		920756B91B328CAC007A1ECF /* UIColor+CustomColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+CustomColors.h"; path = "Categories/UIColor+CustomColors.h"; sourceTree = "<group>"; };
+		920756BA1B328CAC007A1ECF /* UIColor+CustomColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+CustomColors.m"; path = "Categories/UIColor+CustomColors.m"; sourceTree = "<group>"; };
 		9287BD301B2E888F00241EF0 /* NovumHominem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NovumHominem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9287BD341B2E888F00241EF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9287BD351B2E888F00241EF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9287BD371B2E888F00241EF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9287BD381B2E888F00241EF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9287BD3A1B2E888F00241EF0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9287BD3B1B2E888F00241EF0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9287BD431B2E888F00241EF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9287BD491B2E888F00241EF0 /* NovumHominemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NovumHominemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9287BD4E1B2E888F00241EF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -150,6 +167,47 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		920756591B31301E007A1ECF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				920756631B3255D3007A1ECF /* TPODataManager.h */,
+				920756641B3255D3007A1ECF /* TPODataManager.m */,
+				920756661B325CB0007A1ECF /* TPODailyReadings.h */,
+				920756671B325CB0007A1ECF /* TPODailyReadings.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9207565A1B313037007A1ECF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9287BD591B2E88A800241EF0 /* Main.storyboard */,
+				9287BD421B2E888F00241EF0 /* LaunchScreen.xib */,
+				9207567C1B327E4D007A1ECF /* TPODailyReadingsVC.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		9207565B1B313044007A1ECF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				920756691B3267FA007A1ECF /* ResourcesVC.h */,
+				9207566A1B3267FA007A1ECF /* ResourcesVC.m */,
+				920756721B32702D007A1ECF /* TPODailyReadingsVC.h */,
+				920756731B32702D007A1ECF /* TPODailyReadingsVC.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		920756B81B328C44007A1ECF /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				920756B91B328CAC007A1ECF /* UIColor+CustomColors.h */,
+				920756BA1B328CAC007A1ECF /* UIColor+CustomColors.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
 		9287BD271B2E888F00241EF0 = {
 			isa = PBXGroup;
 			children = (
@@ -175,11 +233,13 @@
 			children = (
 				9287BD371B2E888F00241EF0 /* AppDelegate.h */,
 				9287BD381B2E888F00241EF0 /* AppDelegate.m */,
-				9287BD3A1B2E888F00241EF0 /* ViewController.h */,
-				9287BD3B1B2E888F00241EF0 /* ViewController.m */,
-				9287BD591B2E88A800241EF0 /* Main.storyboard */,
+				920756601B31362D007A1ECF /* TPOConstants.h */,
+				920756611B31362D007A1ECF /* TPOConstants.m */,
+				9207565B1B313044007A1ECF /* Controllers */,
+				9207565A1B313037007A1ECF /* Views */,
+				920756591B31301E007A1ECF /* Models */,
+				920756B81B328C44007A1ECF /* Categories */,
 				9287BD5A1B2E88A800241EF0 /* Images.xcassets */,
-				9287BD421B2E888F00241EF0 /* LaunchScreen.xib */,
 				9287BD331B2E888F00241EF0 /* Supporting Files */,
 			);
 			path = NovumHominem;
@@ -298,6 +358,7 @@
 				9287BD5C1B2E88A800241EF0 /* Images.xcassets in Resources */,
 				9287BD441B2E888F00241EF0 /* LaunchScreen.xib in Resources */,
 				9287BD5B1B2E88A800241EF0 /* Main.storyboard in Resources */,
+				9207567D1B327E4D007A1ECF /* TPODailyReadingsVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,7 +384,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export PATH=/usr/local/bin:$PATH\ncd \"${PROJECT_DIR}\"/parse\n\nparse symbols -p \"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}\"";
+			shellScript = "# export PATH=/usr/local/bin:$PATH\n# cd \"${PROJECT_DIR}\"/parse\n#\n# parse symbols -p \"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}\"";
 		};
 		B2691AD0D1F945CD4979AE1B /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -362,8 +423,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9287BD3C1B2E888F00241EF0 /* ViewController.m in Sources */,
+				920756681B325CB0007A1ECF /* TPODailyReadings.m in Sources */,
+				920756621B31362D007A1ECF /* TPOConstants.m in Sources */,
+				920756BB1B328CAC007A1ECF /* UIColor+CustomColors.m in Sources */,
+				920756651B3255D3007A1ECF /* TPODataManager.m in Sources */,
+				9207566B1B3267FA007A1ECF /* ResourcesVC.m in Sources */,
 				9287BD391B2E888F00241EF0 /* AppDelegate.m in Sources */,
+				920756741B32702D007A1ECF /* TPODailyReadingsVC.m in Sources */,
 				9287BD361B2E888F00241EF0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

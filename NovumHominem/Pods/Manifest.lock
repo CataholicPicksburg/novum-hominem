@@ -21,13 +21,16 @@ PODS:
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
   - ComponentKit (0.12)
+  - Ono (1.2.2)
 
 DEPENDENCIES:
   - AFNetworking
   - ComponentKit
+  - Ono
 
 SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
   ComponentKit: 4bf3ce82a9e28f2ec26ba112102a2120ef312aa6
+  Ono: 80b1c686777d3f6d5d5ce6fcac8a74afef4ca197
 
 COCOAPODS: 0.37.2

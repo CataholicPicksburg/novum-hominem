@@ -32,7 +32,7 @@
                                 </userDefinedRuntimeAttributes>
                             </navigationBar>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.98431372549019602" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="0.98039215690000003" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="8VS-bu-QaB" firstAttribute="top" secondItem="1Dh-1V-cj5" secondAttribute="bottom" id="bjn-UU-9JP"/>
                             <constraint firstAttribute="trailing" secondItem="8VS-bu-QaB" secondAttribute="trailing" id="cyL-YN-EL0"/>
@@ -49,51 +49,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wro-xX-zF5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="886" y="-457"/>
-        </scene>
-        <!--Library-->
-        <scene sceneID="ehk-ES-6pB">
-            <objects>
-                <viewController id="RwO-yB-nN7" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="GJl-dg-Z55"/>
-                        <viewControllerLayoutGuide type="bottom" id="PeY-yd-rqk"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="D34-Ws-f4s">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c3W-aW-PZc">
-                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
-                                <color key="barTintColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.058823529409999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <textAttributes key="titleTextAttributes">
-                                    <color key="textColor" red="1" green="0.98431372549999996" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
-                                </textAttributes>
-                                <items>
-                                    <navigationItem title="Library" id="VwZ-Pg-UbB"/>
-                                </items>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="barPosition">
-                                        <integer key="value" value="3"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </navigationBar>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="0.98431372549019602" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="c3W-aW-PZc" firstAttribute="leading" secondItem="D34-Ws-f4s" secondAttribute="leading" id="3ks-lX-RoL"/>
-                            <constraint firstAttribute="trailing" secondItem="c3W-aW-PZc" secondAttribute="trailing" id="rbS-MO-APh"/>
-                            <constraint firstItem="c3W-aW-PZc" firstAttribute="top" secondItem="GJl-dg-Z55" secondAttribute="bottom" id="wLT-zj-3wv"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Library" image="Library" selectedImage="Library_selected" id="KcJ-c0-kIx">
-                        <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="Library_selected"/>
-                        </userDefinedRuntimeAttributes>
-                    </tabBarItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="qVd-sC-E22" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="886" y="349"/>
         </scene>
         <!--Account-->
         <scene sceneID="k4W-B1-RZQ">
@@ -137,7 +92,7 @@
                                 </userDefinedRuntimeAttributes>
                             </navigationBar>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.98431372549019602" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="0.98039215686274506" blue="0.89803921568627454" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="ubU-Xv-jd4" firstAttribute="top" secondItem="6pA-7a-1d1" secondAttribute="bottom" id="1KB-55-Cke"/>
                             <constraint firstAttribute="trailing" secondItem="ubU-Xv-jd4" secondAttribute="trailing" id="8Ot-hJ-7BC"/>
@@ -156,52 +111,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fgs-pP-Y0V" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="30" y="1189"/>
-        </scene>
-        <!--Resources-->
-        <scene sceneID="fGS-eA-SB1">
-            <objects>
-                <viewController id="qoV-fR-wWJ" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jDg-eL-XHi"/>
-                        <viewControllerLayoutGuide type="bottom" id="thM-Eu-sWn"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="plW-kR-XQ0">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DQn-Jr-cWV">
-                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
-                                <color key="barTintColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.058823529409999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <textAttributes key="titleTextAttributes">
-                                    <color key="textColor" red="1" green="0.98431372549999996" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
-                                </textAttributes>
-                                <items>
-                                    <navigationItem title="Resources" id="G8I-Bu-aZg"/>
-                                </items>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="barPosition">
-                                        <integer key="value" value="3"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </navigationBar>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="0.98431372549019602" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="DQn-Jr-cWV" firstAttribute="top" secondItem="jDg-eL-XHi" secondAttribute="bottom" id="7Gz-ax-RUn"/>
-                            <constraint firstItem="DQn-Jr-cWV" firstAttribute="leading" secondItem="plW-kR-XQ0" secondAttribute="leading" id="GVp-PC-g9Z"/>
-                            <constraint firstAttribute="trailing" secondItem="DQn-Jr-cWV" secondAttribute="trailing" id="dQ9-wZ-qsy"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Resources" image="Resources" selectedImage="Resources_selected" id="d4j-dB-UNz" userLabel="Tab 4">
-                        <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="Resources_selected"/>
-                        </userDefinedRuntimeAttributes>
-                    </tabBarItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8TT-NO-feK" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="886" y="1189"/>
+            <point key="canvasLocation" x="20" y="1195"/>
         </scene>
         <!--Featured-->
         <scene sceneID="qRf-kB-Z6W">
@@ -231,7 +141,7 @@
                                 </userDefinedRuntimeAttributes>
                             </navigationBar>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.98431372549019602" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="0.98039215690000003" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="78c-2W-6QV" secondAttribute="trailing" id="Qga-ry-gFS"/>
                             <constraint firstItem="78c-2W-6QV" firstAttribute="leading" secondItem="eei-V1-SfU" secondAttribute="leading" id="s6D-B1-7Bl"/>
@@ -268,14 +178,90 @@
                     <connections>
                         <segue destination="Mj1-zv-gkf" kind="relationship" relationship="viewControllers" id="ndS-S0-nRK"/>
                         <segue destination="AKm-tF-929" kind="relationship" relationship="viewControllers" id="nWh-Ew-yfu"/>
-                        <segue destination="RwO-yB-nN7" kind="relationship" relationship="viewControllers" id="x5d-Hf-9Ox"/>
-                        <segue destination="qoV-fR-wWJ" kind="relationship" relationship="viewControllers" id="Jn5-uk-0Dx"/>
+                        <segue destination="tsA-cQ-Xbx" kind="relationship" relationship="viewControllers" id="bmJ-6j-G5n"/>
                         <segue destination="pz7-p9-fjR" kind="relationship" relationship="viewControllers" id="rYa-2N-FiK"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BRQ-W7-zw8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="20" y="148"/>
+        </scene>
+        <!--Resources-->
+        <scene sceneID="5FI-Cn-AKm">
+            <objects>
+                <viewController id="36M-n7-YJW" userLabel="Resources" customClass="ResourcesVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dd5-h1-TzA"/>
+                        <viewControllerLayoutGuide type="bottom" id="rZF-a7-HpB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="n3c-Wk-heT">
+                        <rect key="frame" x="0.0" y="64" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="kbX-na-73I">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                                <color key="backgroundColor" red="1" green="0.98039215686274506" blue="0.89803921568627454" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="sectionIndexBackgroundColor" red="1" green="0.98039215686274506" blue="0.87058823529411766" alpha="1" colorSpace="calibratedRGB"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="resourcesCell" id="eKR-3n-bZM">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eKR-3n-bZM" id="CQq-qO-TdU">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="36M-n7-YJW" id="ByL-e4-9Ed"/>
+                                    <outlet property="delegate" destination="36M-n7-YJW" id="IgY-1M-brD"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.98039215686274506" blue="0.89803921568627454" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="1" green="0.98039215690000003" blue="0.87058823529999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="kbX-na-73I" firstAttribute="top" secondItem="n3c-Wk-heT" secondAttribute="top" id="BTe-uF-p7x"/>
+                            <constraint firstItem="kbX-na-73I" firstAttribute="leading" secondItem="n3c-Wk-heT" secondAttribute="leading" id="KK9-KR-xdR"/>
+                            <constraint firstAttribute="trailing" secondItem="kbX-na-73I" secondAttribute="trailing" id="U74-8a-IDV"/>
+                            <constraint firstItem="kbX-na-73I" firstAttribute="bottom" secondItem="rZF-a7-HpB" secondAttribute="top" id="aCR-Pm-2Bh"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Resources" id="aMv-fN-k17"/>
+                    <connections>
+                        <outlet property="resourcesTableView" destination="kbX-na-73I" id="Csf-we-fB1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7rP-u0-9Ni" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1698" y="1195"/>
+        </scene>
+        <!--Resources-->
+        <scene sceneID="sN9-Pi-5Vu">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tsA-cQ-Xbx" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Resources" image="Resources" selectedImage="Resources_selected" id="p6X-tO-t8Y">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="Resources_selected"/>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5FA-mF-29e">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="1" green="0.98039215690000003" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.5490196078431373" green="0.058823529411764705" blue="0.058823529411764705" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="1" green="0.98039215686274506" blue="0.87058823529411766" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="36M-n7-YJW" kind="relationship" relationship="rootViewController" id="jI7-IZ-o4L"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Ys-nw-Bb2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="886" y="1195"/>
         </scene>
     </scenes>
     <resources>
@@ -285,8 +271,6 @@
         <image name="Calendar_selected" width="25" height="25"/>
         <image name="Featured" width="25" height="25"/>
         <image name="Featured_selected" width="25" height="25"/>
-        <image name="Library" width="25" height="25"/>
-        <image name="Library_selected" width="25" height="25"/>
         <image name="Resources" width="25" height="25"/>
         <image name="Resources_selected" width="25" height="25"/>
     </resources>

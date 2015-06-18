@@ -1,6 +1,7 @@
 target 'NovumHominem' do
 	pod 'ComponentKit'
     pod 'AFNetworking'
+    pod 'Ono'
 end
 
 target 'NovumHominemTests' do

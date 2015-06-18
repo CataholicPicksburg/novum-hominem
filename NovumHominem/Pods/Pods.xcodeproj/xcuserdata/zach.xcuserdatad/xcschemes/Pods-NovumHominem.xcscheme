@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8EC2C0776A0734F3CE88F60A"
+               BlueprintIdentifier = "E678502E76A216B9B60DBD9F"
                BuildableName = "libPods-NovumHominem.a"
                BlueprintName = "Pods-NovumHominem"
                ReferencedContainer = "container:Pods.xcodeproj">
